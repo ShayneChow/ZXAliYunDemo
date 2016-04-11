@@ -10,6 +10,7 @@
 		B28F8FA9077F20EBA5B5AD22 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9C69E302ACBA96EE355F50 /* libPods.a */; };
 		F06DB1B01CBBAC2300B17E82 /* AuthorizationStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DB1AF1CBBAC2300B17E82 /* AuthorizationStatusHelper.m */; };
 		F06DB1B21CBBAD3F00B17E82 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06DB1B11CBBAD3F00B17E82 /* AssetsLibrary.framework */; };
+		F06DB1B61CBBB9D100B17E82 /* VPImageCropperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F06DB1B51CBBB9D100B17E82 /* VPImageCropperViewController.m */; };
 		F0770E341CBB87A300931515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0770E331CBB87A300931515 /* main.m */; };
 		F0770E371CBB87A300931515 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0770E361CBB87A300931515 /* AppDelegate.m */; };
 		F0770E3A1CBB87A300931515 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0770E391CBB87A300931515 /* ViewController.m */; };
@@ -25,6 +26,8 @@
 		F06DB1AE1CBBAC2300B17E82 /* AuthorizationStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationStatusHelper.h; sourceTree = "<group>"; };
 		F06DB1AF1CBBAC2300B17E82 /* AuthorizationStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationStatusHelper.m; sourceTree = "<group>"; };
 		F06DB1B11CBBAD3F00B17E82 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F06DB1B41CBBB9D100B17E82 /* VPImageCropperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPImageCropperViewController.h; sourceTree = "<group>"; };
+		F06DB1B51CBBB9D100B17E82 /* VPImageCropperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPImageCropperViewController.m; sourceTree = "<group>"; };
 		F0770E2F1CBB87A200931515 /* ZXAliYunDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXAliYunDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0770E331CBB87A300931515 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F0770E351CBB87A300931515 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +71,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F06DB1B31CBBB9D100B17E82 /* VPImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				F06DB1B41CBBB9D100B17E82 /* VPImageCropperViewController.h */,
+				F06DB1B51CBBB9D100B17E82 /* VPImageCropperViewController.m */,
+			);
+			path = VPImageCropper;
+			sourceTree = "<group>";
+		};
 		F0770E261CBB87A200931515 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +107,7 @@
 				F0770E391CBB87A300931515 /* ViewController.m */,
 				F06DB1AE1CBBAC2300B17E82 /* AuthorizationStatusHelper.h */,
 				F06DB1AF1CBBAC2300B17E82 /* AuthorizationStatusHelper.m */,
+				F06DB1B31CBBB9D100B17E82 /* VPImageCropper */,
 				F0770E3B1CBB87A300931515 /* Main.storyboard */,
 				F0770E3E1CBB87A300931515 /* Assets.xcassets */,
 				F0770E401CBB87A300931515 /* LaunchScreen.storyboard */,
@@ -233,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F06DB1B61CBBB9D100B17E82 /* VPImageCropperViewController.m in Sources */,
 				F0770E3A1CBB87A300931515 /* ViewController.m in Sources */,
 				F0770E371CBB87A300931515 /* AppDelegate.m in Sources */,
 				F0770E341CBB87A300931515 /* main.m in Sources */,
