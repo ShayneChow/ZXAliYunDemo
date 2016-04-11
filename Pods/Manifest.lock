@@ -1,0 +1,27 @@
+PODS:
+  - AliyunOSSiOS (2.2.0)
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+
+DEPENDENCIES:
+  - AliyunOSSiOS
+  - BlocksKit
+
+SPEC CHECKSUMS:
+  AliyunOSSiOS: da89ea3c5c591c805d82f079a2b12c78c61f81f1
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+
+COCOAPODS: 0.39.0
